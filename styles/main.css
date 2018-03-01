@@ -1,0 +1,84 @@
+ul {
+  list-style-type: none;
+}
+boby {
+  font-family: Verdana, sans-serif;
+}
+span {
+  font-size: 14px;
+}
+
+
+/*month header*/
+.month{
+  padding: 75px 0;
+  width: 100%;
+  height: 50px;
+  background: #1abc9c;
+  text-align: center;
+}
+.month button, .month p {
+  margin-top: 1%;
+  margin-left: 4%; 
+  margin-right: 4%;
+}
+.month p{
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/*Previous button insede month header*/
+.month .monthButtonPrev{
+  float: left;
+}
+.month .monthButtonNext {
+  float: right;
+}
+.month .monthButtonNext , .month .monthButtonPrev {
+  width: 28px;
+  height: 28px;
+  color: black;
+  background-color: whitesmoke;
+  border:none;
+  outline: none;
+  cursor: pointer;
+}
+/*Weekdays (Mon-Sun)*/
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+.weekdays li{
+  display: inline-block;
+  width: 13.9%;
+  
+  
+  color: #666;
+  text-align: center;
+}
+/*Days (1 - 31)*/
+.days {
+  padding: 10px 0;
+  width: 100%;
+  background: #eee;
+  margin: 0;
+}
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.9%;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+.days .day_prev,.days .day_next{
+  color: #888;
+}
+.days .active{
+  padding: 4px 4px;
+  background: #1abc9c;
+  color: white;
+}
